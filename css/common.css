@@ -43,9 +43,9 @@ body {
   text-decoration: none;
 }
 
-.list:not(:last-child) {
+/* .list:not(:last-child) {
   margin-right: 30px;
-}
+} */
 
 .section-title {
   color: var(--title-link-color);
@@ -115,12 +115,12 @@ body {
 }
 
 /* Header  */
-
 .nav {
   display: flex;
-  /* flex-direction: row;
-  justify-content: space-between; */
 }
+
+/* flex-direction: row;
+  justify-content: space-between; */
 
 /* site-nav */
 .site-nav {
@@ -215,32 +215,17 @@ body {
   margin: 0 auto 30px auto;
 }
 
-  /* margin-bottom: 30px;
-/* margin-left: auto;
-margin-right: auto;
-margin-top: 0;
-margin-bottom: 30px; */
-  /* margin: 0 auto;
-/* padding-top: 195px;
-padding-bottom: 30px; */
+/*identity section*/
+.identity.section .container {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
-/*identity section*/
-/* .identity.section {
-  padding-bottom: 94px;
-  padding-top: 94px;
-} */
-
-/* .identity.items {
+.identity .items {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-basis: auto;
-} */
-
-.identity.section {
-  padding-top: 94px;
-  
 }
 
 .identity .identity-item {
@@ -269,6 +254,10 @@ padding-bottom: 30px; */
   text-align: left;
 }
 
+.identity.items .unit + .unit {
+  margin-left: 30px;
+}
+
 /* activities/team h2 */
 .activities h2,
 .team h2 {
@@ -282,7 +271,7 @@ padding-bottom: 30px; */
 
 /* activities */
 .activities.section .container {
-    padding-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .activity.items {
@@ -290,7 +279,9 @@ padding-bottom: 30px; */
   justify-content: space-between;
 }
 
-
+.activity.items .unit + .unit {
+  margin-left: 30px;
+}
 /* .activities h2 {
   margin-top: 0;
   margin-bottom: 50px; */
@@ -305,7 +296,7 @@ padding-bottom: 30px; */
   padding-bottom: 94px;
 }
 
-.team .items {
+.team.items {
   display: flex;
   justify-content: space-between;
 }
@@ -314,8 +305,8 @@ padding-bottom: 30px; */
   background-color: var(--bg-primary-color);
 }
 
-.team-item:not(:last-child) {
-  margin-right: 30px;
+.team.items .unit + .unit {
+  margin-left: 30px;
 }
 
 .team .team-name,

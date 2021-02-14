@@ -122,15 +122,16 @@ ul {
 /* Header  */
 
 .nav {
-  /* display: flex; */
+  display: flex;
   /* flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-between; */
 }
 
 /* site-nav */
   .site-nav {
     display: flex;
     align-items: center;
+    margin-right: 330px;
   }
 
   .nav-list .link {
@@ -167,6 +168,7 @@ ul {
 
   .contact-nav {
     display: flex;
+    align-items: center;
 
     font-weight: 500;
     font-size: 14px;
@@ -361,6 +363,7 @@ p {
 .footer {
   background-color: var(--bg-footer-color);
 }
+
 .footer .container {
   padding-top: 60px;
   padding-bottom: 60px;

@@ -81,6 +81,7 @@ img {
 .btn:focus {
   background-color: var(--accent-color);
   color: var(--bg-primary-color);
+  outline: none;
 }
 
 /* logo */
@@ -105,6 +106,8 @@ img {
 
 .header.section {
   border-bottom: 1px solid var(--header-border);
+  padding-top: 23px;
+  padding-bottom: 23px;
 }
 
 .nav {
@@ -114,8 +117,6 @@ img {
 /* site-nav*/
 .site-nav {
   display: flex;
-  padding-top: 23px;
-  padding-bottom: 23px;
   align-items: center;
 }
 
@@ -386,7 +387,7 @@ img {
 }
 
 .unit .unit-dsc {
-  margin: 20px 24px;
+  padding: 20px 24px;
 }
 
 .filter-name {

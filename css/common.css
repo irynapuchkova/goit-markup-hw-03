@@ -214,12 +214,12 @@ img {
 }
 
 /*identity section*/
-.identity {
+.identities {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.identity .items {
+.identity.items {
   display: flex;
   margin-left: -30px;
 }
